@@ -40,7 +40,7 @@ public class BoardServiceImpl implements BoardService {
 
 	@Override
 	public List<ReadBoardRespDto> readBoardList(int page) throws Exception {
-		//List<Board> boardList = boardRepository.getBoardListOfIndex(page - 1 * 10);
+		//List<Board> boardList = boardRepository.getBoardListOfIndex((page - 1) * 10);
 		
 		List<ReadBoardRespDto> BoardDtoList = new ArrayList<ReadBoardRespDto>();
 		
